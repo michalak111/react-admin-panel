@@ -33,7 +33,7 @@ export const PostCreate = (props) => (
     <Create {...props}>
         <SimpleForm>
             <TextInput source="title" />
-            <LongTextInput source="content" />
+            <RichTextInput source="content" />
         </SimpleForm>
     </Create>
 );

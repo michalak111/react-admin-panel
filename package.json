@@ -17,6 +17,7 @@
     "express": "^4.13.4",
     "jsonwebtoken": "^5.7.0",
     "mongoose": "^4.4.5",
+    "mongoose-url-slugs": "^1.0.0",
     "morgan": "^1.7.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
