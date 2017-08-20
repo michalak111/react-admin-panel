@@ -1,7 +1,7 @@
 // in src/posts.js
 import React from 'react';
 import RichTextInput from 'aor-rich-text-input';
-import { List, Edit, Create, Datagrid, TextField, EditButton, DisabledInput, LongTextInput, SimpleForm, TextInput } from 'admin-on-rest';
+import { List, Edit, Create, Datagrid, TextField, EditButton, DisabledInput, SimpleForm, TextInput } from 'admin-on-rest';
 
 export const PostList = (props) => (
     <List {...props}>

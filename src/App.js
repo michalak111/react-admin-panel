@@ -3,7 +3,8 @@ import { simpleRestClient, fetchUtils, Admin, Resource } from 'admin-on-rest';
 import { API_URL } from './config'
 import authClient from './authClient';
 import { PostList, PostEdit, PostCreate } from './posts';
-
+import Menu from './Menu';
+import customRoutes from './customRoutes';
 
 const httpClient = (url, options = {}) => {
     if (!options.headers) {
@@ -16,7 +17,7 @@ const httpClient = (url, options = {}) => {
 const restClient = simpleRestClient(API_URL, httpClient);
 
 const App = () => (
-    <Admin authClient={authClient} restClient={restClient}>
+    <Admin title="Simple CMS" customRoutes={customRoutes} menu={Menu} authClient={authClient} restClient={restClient}>
         <Resource name="post" list={PostList} edit={PostEdit} create={PostCreate} />
     </Admin>
 );
