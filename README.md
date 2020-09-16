@@ -1,0 +1,1 @@
+[![Run on Repl.it](https://repl.it/badge/github/michalak111/react-admin-panel)](https://repl.it/github/michalak111/react-admin-panel)
